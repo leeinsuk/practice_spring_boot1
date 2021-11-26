@@ -17,12 +17,13 @@ apply plugin: 'io.spring.dependency-management'
 
 group 'org.example'
 version '1.0-SNAPSHOT'
+sourceCompatibility =1.8
 
 repositories {
     mavenCentral()
     jcenter()
 }
 dependencies {
-    compileClasspath('org.springframework.boot:spring-boot-starter-web')
-    testCompileClasspath('org.springframework.boot:spring-boot-starter-test')
+    implementation('org.springframework.boot:spring-boot-starter-web')
+    testImplementation('org.springframework.boot:spring-boot-starter-test')
 }
