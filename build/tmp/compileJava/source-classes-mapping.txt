@@ -1,29 +1,45 @@
-firstspring/web/HelloController.java
- firstspring.web.HelloController
 firstspring/domain/posts/Posts.java
  firstspring.domain.posts.Posts
  firstspring.domain.posts.Posts$PostsBuilder
-firstspring/web/dto/PostsResponseDto.java
- firstspring.web.dto.PostsResponseDto
+firstspring/config/auth/dto/SessionUser.java
+ firstspring.config.auth.dto.SessionUser
+firstspring/domain/posts/PostsRepository.java
+ firstspring.domain.posts.PostsRepository
 firstspring/web/dto/PostsSaveRequestDto.java
  firstspring.web.dto.PostsSaveRequestDto
  firstspring.web.dto.PostsSaveRequestDto$PostsSaveRequestDtoBuilder
-firstspring/Application.java
- firstspring.Application
+firstspring/web/IndexController.java
+ firstspring.web.IndexController
+firstspring/config/auth/CustomOAuth2UserService.java
+ firstspring.config.auth.CustomOAuth2UserService
 firstspring/web/dto/HelloResponseDto.java
  firstspring.web.dto.HelloResponseDto
-firstspring/domain/BaseTimeEntity.java
- firstspring.domain.BaseTimeEntity
+firstspring/domain/user/UserRepository.java
+ firstspring.domain.user.UserRepository
 firstspring/web/dto/PostsUpdateRequestDto.java
  firstspring.web.dto.PostsUpdateRequestDto
  firstspring.web.dto.PostsUpdateRequestDto$PostsUpdateRequestDtoBuilder
-firstspring/domain/posts/PostsRepository.java
- firstspring.domain.posts.PostsRepository
-firstspring/web/dto/PostsListResponseDto.java
- firstspring.web.dto.PostsListResponseDto
-firstspring/web/IndexController.java
- firstspring.web.IndexController
 firstspring/web/PostsApiController.java
  firstspring.web.PostsApiController
+firstspring/web/dto/PostsResponseDto.java
+ firstspring.web.dto.PostsResponseDto
 firstspring/service/posts/PostsService.java
  firstspring.service.posts.PostsService
+firstspring/web/HelloController.java
+ firstspring.web.HelloController
+firstspring/domain/user/User.java
+ firstspring.domain.user.User
+ firstspring.domain.user.User$UserBuilder
+firstspring/domain/BaseTimeEntity.java
+ firstspring.domain.BaseTimeEntity
+firstspring/domain/user/Role.java
+ firstspring.domain.user.Role
+firstspring/Application.java
+ firstspring.Application
+firstspring/config/auth/SecurityConfig.java
+ firstspring.config.auth.SecurityConfig
+firstspring/config/auth/dto/OAuthAttributes.java
+ firstspring.config.auth.dto.OAuthAttributes
+ firstspring.config.auth.dto.OAuthAttributes$OAuthAttributesBuilder
+firstspring/web/dto/PostsListResponseDto.java
+ firstspring.web.dto.PostsListResponseDto
