@@ -25,13 +25,19 @@ firstspring/web/dto/PostsResponseDto.java
  firstspring.web.dto.PostsResponseDto
 firstspring/service/posts/PostsService.java
  firstspring.service.posts.PostsService
+firstspring/config/auth/LoginUserArgumentResolver.java
+ firstspring.config.auth.LoginUserArgumentResolver
 firstspring/web/HelloController.java
  firstspring.web.HelloController
 firstspring/domain/user/User.java
  firstspring.domain.user.User
  firstspring.domain.user.User$UserBuilder
+firstspring/config/WebConfig.java
+ firstspring.config.WebConfig
 firstspring/domain/BaseTimeEntity.java
  firstspring.domain.BaseTimeEntity
+firstspring/config/auth/LoginUser.java
+ firstspring.config.auth.LoginUser
 firstspring/domain/user/Role.java
  firstspring.domain.user.Role
 firstspring/Application.java
