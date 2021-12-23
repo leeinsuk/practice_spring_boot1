@@ -1,10 +1,10 @@
-firstspring/web/HelloControllerTest.java
- firstspring.web.HelloControllerTest
-firstspring/web/dto/HelloResponseDtoTest.java
- firstspring.web.dto.HelloResponseDtoTest
 firstspring/web/PostsApiControllerTest.java
  firstspring.web.PostsApiControllerTest
-firstspring/web/domain/posts/PostsRepositoryTest.java
- firstspring.web.domain.posts.PostsRepositoryTest
+firstspring/web/dto/HelloResponseDtoTest.java
+ firstspring.web.dto.HelloResponseDtoTest
 firstspring/web/IndexControllerTest.java
  firstspring.web.IndexControllerTest
+firstspring/web/domain/posts/PostsRepositoryTest.java
+ firstspring.web.domain.posts.PostsRepositoryTest
+firstspring/web/HelloControllerTest.java
+ firstspring.web.HelloControllerTest
