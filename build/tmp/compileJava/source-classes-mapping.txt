@@ -40,12 +40,14 @@ firstspring/config/auth/LoginUser.java
  firstspring.config.auth.LoginUser
 firstspring/domain/user/Role.java
  firstspring.domain.user.Role
-firstspring/Application.java
- firstspring.Application
+firstspring/web/dto/PostsListResponseDto.java
+ firstspring.web.dto.PostsListResponseDto
 firstspring/config/auth/SecurityConfig.java
  firstspring.config.auth.SecurityConfig
 firstspring/config/auth/dto/OAuthAttributes.java
  firstspring.config.auth.dto.OAuthAttributes
  firstspring.config.auth.dto.OAuthAttributes$OAuthAttributesBuilder
-firstspring/web/dto/PostsListResponseDto.java
- firstspring.web.dto.PostsListResponseDto
+firstspring/config/JpaConfig.java
+ firstspring.config.JpaConfig
+firstspring/Application.java
+ firstspring.Application
