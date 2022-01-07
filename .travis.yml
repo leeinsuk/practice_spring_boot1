@@ -19,7 +19,7 @@ before_install:
   - chmod +x gradlew
 
 before_deploy:
-  - zip -r practice_spring_boot1 */practice_spring_boot1 #오류나면 여기 체크
+  - zip -r practice_spring_boot1 * #오류나면 여기 체크
   - mkdir -p deploy
   - mv practice_spring_boot1.zip deploy/practice_spring_boot1.zip
 
