@@ -18,6 +18,23 @@ script: "./gradlew clean build"
 before_install:
   - chmod +x gradlew
 
+before_deploy:
+  - zip -r practice_spring_boot1 */practice_spring_boot1 #오류나면 여기 체크
+  - mkdir -p deploy
+  - mv practice_spring_boot1.zip deploy/practice_spring_boot1.zip
+
+deploy:
+  - provider: s3
+    access_key_id: $AWS_ACCESS_KEY
+    secret_access_key: $AWS_SECRET_KEY
+
+    bucket: practice-springboot-build-lee #s3버킷이름
+    region: ap-northeast-2
+    skip_cleanup: true
+    acl: private # zip 파일 접근권한
+    local_dir: deploy #before_deploy에서 생성한 디렉토리 이름
+    wait-until-deployed: true
+
 # CI 실행 완료 시 메일로 알람보내기
 notifications:
   email:
