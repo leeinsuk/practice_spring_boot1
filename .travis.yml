@@ -42,8 +42,8 @@ deploy:
     bucket: practice-springboot-build-lee
     key: practice_spring_boot1.zip
     bundle_type: zip
-    application: spring-boot-practice1
-    deployment_group: spring-boot-practice1-group
+    application: springboot-practice1
+    deployment_group: springboot-practice1-group
     region: ap-northeast-2
     wait-until-deployed: true
 
