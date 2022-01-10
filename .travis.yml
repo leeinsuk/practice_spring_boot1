@@ -43,7 +43,6 @@ deploy:
     local_dir: deploy #before_deploy에서 생성한 디렉토리 이름
     wait-until-deployed: true
 
-
   - provider: codedeploy
       access_key_id: $AWS_ACCESS_KEY # Travis repo settings에 설정된 값
       secret_access_key: $AWS_SECRET_KEY # Travis repo settings에 설정된 값
