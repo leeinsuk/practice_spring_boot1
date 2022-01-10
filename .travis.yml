@@ -39,7 +39,7 @@ deploy:
     access_key_id: $AWS_ACCESS_KEY
     secret_access_key: $AWS_SECRET_KEY
 
-    bucket: practice-springboot-vuild-lee
+    bucket: practice-springboot-build-lee
     key: practice_spring_boot1.zip
     bundle_type: zip
     application: spring-boot-practice1
