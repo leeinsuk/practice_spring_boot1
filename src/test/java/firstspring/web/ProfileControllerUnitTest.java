@@ -3,7 +3,7 @@ package firstspring.web;
 import org.junit.Test;
 import org.springframework.mock.env.MockEnvironment;
 
-import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 public class ProfileControllerUnitTest {
 
